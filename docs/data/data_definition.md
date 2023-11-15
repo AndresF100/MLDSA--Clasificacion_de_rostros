@@ -2,7 +2,7 @@
 
 ## Origen de los datos
 
-- [ ] Especificar la fuente de los datos y la forma en que se obtuvieron. 
+- Los datos provienen de Kaggle en específico del [Face Recognition Dataset](https://www.kaggle.com/datasets/stoicstatic/face-recognition-dataset/), se obtienen por descarga directa.
 
 ## Especificación de los scripts para la carga de datos
 
