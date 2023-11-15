@@ -2,57 +2,60 @@
 
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+Clasificación de rostros
 
 ## Objetivo del Proyecto
 
-[Descripción breve del objetivo del proyecto y por qué es importante]
+El presente proyecto no tiene un campo de aplicación específico, sin embargo puede tomarse como verificador de identidad de una persona basada en una o más imágenes previas cargadas en un sistema, de esta manera el sistema permitiría distinguir personas de una base potencial.
+
+De igual manera será un ajuste al proyecto del módulo anterior con el fin de estructurar el proyecto de acuerdo a las buenas prácticas y herramientas del módulo, y guardar registro de los experimentos y resultados a las redes neuronales entrenadas.
+
+Para ello el principal problema de este verificador de identidad es ¿cómo reconocer a una persona? y posteriormente ¿cómo diferenciarla del resto?. 
 
 ## Alcance del Proyecto
 
 ### Incluye:
 
-- [Descripción de los datos disponibles]
-- [Descripción de los resultados esperados]
-- [Criterios de éxito del proyecto]
+- Datos provenientes de Kaggle en específico del [Face Recognition Dataset](https://www.kaggle.com/datasets/stoicstatic/face-recognition-dataset/), los cuales vienen en un archivo comprimido, una vez abierto este archivo se encuentran imágenes centradas en una sola cara con los canales RGB, con dimensiones de 250x250, en total se tienen 1680 carpetas dentro de cada una se tienen imágenes de la persona (de 2 a 50), estas carpetas tienen como nombre id del 0 a 1679.
+
+- Modelo clasificador de nuevos rostros
+
+- Modelo funcional y desplegado
 
 ### Excluye:
 
-- [Descripción de lo que no está incluido en el proyecto]
+- Carga directa de los datos
 
 ## Metodología
 
-[Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
+1. Recopilación de imágenes
+2. Definición del modelo y registro en mlflow
+3. Entrenamiento
+4. Contraste contra modelos de reconocimiento facial preentrenados
+5. Elección de mejor modelo
+6. Despliegue
 
 ## Cronograma
 
+
 | Etapa | Duración Estimada | Fechas |
 |------|---------|-------|
-| Entendimiento del negocio y carga de datos | 2 semanas | del 1 de mayo al 15 de mayo |
-| Preprocesamiento, análisis exploratorio | 4 semanas | del 16 de mayo al 15 de junio |
-| Modelamiento y extracción de características | 4 semanas | del 16 de junio al 15 de julio |
-| Despliegue | 2 semanas | del 16 de julio al 31 de julio |
-| Evaluación y entrega final | 3 semanas | del 1 de agosto al 21 de agosto |
+|Recopilación de imágenes|1 semana| 2023-11-12 al 2023-11-18| 
+|Definición del modelo y registro en mlflow|1 semana|2023-11-19 al 2023-11-25|
+|Entrenamiento|1 semana|2023-11-26 al 2023-12-02|
+|Contraste contra modelos de reconocimiento facial preentrenados|1 semana|2023-11-26 al 2023-12-02|
+|Elección de mejor modelo|1 semana|2023-12-03 al 2023-12-09|
+|Despliegue|1 semana|2023-12-03 al 2023-12-09|
+
+
 
 Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse de acuerdo al proyecto.
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
+- Andrés Forero
 
 ## Presupuesto
 
-[Descripción del presupuesto asignado al proyecto]
+Sin presupuesto asignado.
 
-## Stakeholders
-
-- [Nombre y cargo de los stakeholders del proyecto]
-- [Descripción de la relación con los stakeholders]
-- [Expectativas de los stakeholders]
-
-## Aprobaciones
-
-- [Nombre y cargo del aprobador del proyecto]
-- [Firma del aprobador]
-- [Fecha de aprobación]
