@@ -2,24 +2,28 @@
 
 ## Resumen Ejecutivo
 
-En esta sección se presentará un resumen de los resultados obtenidos del modelo final. Es importante incluir los resultados de las métricas de evaluación y la interpretación de los mismos.
+El modelo con fine tunning entrenado con 10 épocas de calentamiento y 70 de entrenamiento, presenta un accuracy de 86% durante la experimentación.
 
 ## Descripción del Problema
 
-En esta sección se describirá el problema que se buscó resolver con el modelo final. Se debe incluir una descripción detallada del problema, el contexto en el que se desarrolla, los objetivos que se persiguen y la justificación del modelo.
+El presente proyecto no tiene un campo de aplicación específico, sin embargo puede tomarse como verificador de identidad de una persona basada en una o más imágenes previas cargadas en un sistema, de esta manera el sistema permitiría distinguir personas de una base potencial.
+
+Para ello el principal problema de este verificador de identidad es ¿cómo reconocer a una persona? y posteriormente ¿cómo diferenciarla del resto?. 
+
 
 ## Descripción del Modelo
 
-En esta sección se describirá el modelo final que se desarrolló para resolver el problema planteado. Se debe incluir una descripción detallada del modelo, la metodología utilizada y las técnicas empleadas.
+El modelo usado es un fine tunning del modelo Resnet50, aprovechando los pesos que este ya tiene, se modifica ligeramente durante 70 épocas para que su poder de inferencia sea aplicado a este problema particular.
 
 ## Evaluación del Modelo
 
-En esta sección se presentará una evaluación detallada del modelo final. Se deben incluir las métricas de evaluación que se utilizaron y una interpretación detallada de los resultados.
+![resultados ml flow](image.png)
+
+Se obtiene un 86% de accuracy al trabajar con los datos de validación, la experimentación se guardó usando mlflow permitiendo tener trazabilidad del proceso.
 
 ## Conclusiones y Recomendaciones
 
-En esta sección se presentarán las conclusiones y recomendaciones a partir de los resultados obtenidos. Se deben incluir los puntos fuertes y débiles del modelo, las limitaciones y los posibles escenarios de aplicación.
+Los modelos base, requieren ser tunneados para que se ajusten al problema particular, un gran tiempo de entrenamiento provee mejores resultados siempre y cuando se liberen las capas para reentrenar los pesos.
 
-## Referencias
+Un mayor tiempo de entrenamiento podría ofrecer mejores resultados, sin embargo podría caer en sobreajuste dado el limitado número de ejemplos que se tienen por etiqueta.
 
-En esta sección se deben incluir las referencias bibliográficas y fuentes de información utilizadas en el desarrollo del modelo.

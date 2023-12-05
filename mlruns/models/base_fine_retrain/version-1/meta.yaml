@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1701791540540
+current_stage: None
+description: ''
+last_updated_timestamp: 1701791540540
+name: base_fine_retrain
+run_id: be8c8d786bfb4da0b4beea5babe33205
+run_link: ''
+source: file:///D:/OneDrive - Universidad de La Salle/Documents/GitHub/tdsp_template/mlruns/be8c8d786bfb4da0b4beea5babe33205/artifacts/model_10_epochs_warm_70_epochs_train
+status: READY
+status_message: null
+storage_location: file:///D:/OneDrive - Universidad de La Salle/Documents/GitHub/tdsp_template/mlruns/be8c8d786bfb4da0b4beea5babe33205/artifacts/model_10_epochs_warm_70_epochs_train
+user_id: null
+version: 1

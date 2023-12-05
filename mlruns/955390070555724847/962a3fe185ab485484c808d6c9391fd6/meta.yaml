@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/OneDrive - Universidad de La Salle/Documents/GitHub/tdsp_template/mlruns/962a3fe185ab485484c808d6c9391fd6/artifacts
+end_time: 1701751043121
+entry_point_name: ''
+experiment_id: '955390070555724847'
+lifecycle_stage: active
+run_id: 962a3fe185ab485484c808d6c9391fd6
+run_name: epochs_70
+run_uuid: 962a3fe185ab485484c808d6c9391fd6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701749172874
+status: 3
+tags: []
+user_id: AFO
