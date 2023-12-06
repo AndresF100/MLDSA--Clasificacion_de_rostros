@@ -3,3 +3,4 @@
 env_vars*
 credentials*
 **/build/*
+scripts/training/Modelo_final/ft_model.h5
