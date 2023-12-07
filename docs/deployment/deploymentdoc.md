@@ -2,21 +2,26 @@
 
 ## Infraestructura
 
-- **Nombre del modelo:** (nombre que se le ha dado al modelo)
-- **Plataforma de despliegue:** (plataforma donde se va a desplegar el modelo)
-- **Requisitos técnicos:** (lista de requisitos técnicos necesarios para el despliegue, como versión de Python, bibliotecas de terceros, hardware, etc.)
-- **Requisitos de seguridad:** (lista de requisitos de seguridad necesarios para el despliegue, como autenticación, encriptación de datos, etc.)
-- **Diagrama de arquitectura:** (imagen que muestra la arquitectura del sistema que se utilizará para desplegar el modelo)
+- **Nombre del modelo:** Reconocimiento de personas basado en imágenes previas
+- **Plataforma de despliegue:** Gradio
+- **Requisitos técnicos:** 
+    * python==3.10
+    * tensorflow
+    * gradio
+    * gdown
+    * keras
+    * cv2
+    * pandas
+    * numpy
+
+- **Requisitos de seguridad:** Despliegue local
 
 ## Código de despliegue
 
-- **Archivo principal:** (nombre del archivo principal que contiene el código de despliegue)
-- **Rutas de acceso a los archivos:** (lista de rutas de acceso a los archivos necesarios para el despliegue)
-- **Variables de entorno:** (lista de variables de entorno necesarias para el despliegue)
+- **Archivo principal:** scripts\deployment\Despliegue.ipynb
 
 ## Documentación del despliegue
 
-- **Instrucciones de instalación:** (instrucciones detalladas para instalar el modelo en la plataforma de despliegue)
-- **Instrucciones de configuración:** (instrucciones detalladas para configurar el modelo en la plataforma de despliegue)
-- **Instrucciones de uso:** (instrucciones detalladas para utilizar el modelo en la plataforma de despliegue)
-- **Instrucciones de mantenimiento:** (instrucciones detalladas para mantener el modelo en la plataforma de despliegue)
+- **Instrucciones de instalación:** Instalar los requimientos
+- **Instrucciones de configuración:** ejecutar código de despliegue y acceder al local host dado por gradio
+- **Instrucciones de uso:** Cargue una imagen (sugerido de scripts\data_acquisition\test) o una jpg (para imágenes de mayor dimensión a 250x250 se hace un recorte automático desde centro)
