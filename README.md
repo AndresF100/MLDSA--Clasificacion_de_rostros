@@ -1,4 +1,5 @@
 # Clasificación de rostros
+Proyecto de Diplomado de Machine Learning & Data Science Avanzado, **Universidad Nacional de Colombia**. 
 
 ## Objetivo del Proyecto
 El presente proyecto no tiene un campo de aplicación específico, sin embargo, puede tomarse como verificador de identidad de una persona basada en una o más imágenes previas cargadas en un sistema. De esta manera, el sistema permitiría distinguir personas de una base potencial.
